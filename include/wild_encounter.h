@@ -16,6 +16,7 @@ struct WildPokemonInfo
     const struct WildPokemon *wildPokemon;
 };
 
+// If adding new encounter type fields, make sure to also add them in CopyNonNullWildMonInfoToCurrentHeader
 struct WildPokemonHeader
 {
     u8 mapGroup;
